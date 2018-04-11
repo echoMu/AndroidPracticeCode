@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.echomu.threepoints.view.ThreePointsLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B2B2B">
+
+    <com.echomu.threepoints.view.PointLeftView
+        android:id="@+id/objectAnimatorViewLeft"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"/>
+
+    <com.echomu.threepoints.view.PointMidView
+        android:id="@+id/objectAnimatorViewMid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"/>
+
+    <com.echomu.threepoints.view.PointRightView
+        android:id="@+id/objectAnimatorViewRight"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/animateBt"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dp"
+        android:textSize="16sp"
+        android:text="btn"/>
+
+</com.echomu.threepoints.view.ThreePointsLayout>
